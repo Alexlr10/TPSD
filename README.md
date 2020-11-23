@@ -9,6 +9,7 @@ Como executar a API:
 * Navegue até a pasta back_end
     * Instale o ambiente virtual env
         * apt-get install python3.6-venv
+        * python3 -m venv env
     * Ative-o
         * Ativando em ambiente Unix: source env/bin/activate
     * Instale os pacotes:
