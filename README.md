@@ -6,6 +6,7 @@ Para executar a API e a interface, é necessário ter o Docker e o Docker-compos
 
 Métodos de instalação do Docker: 
 
+
 Windows 10 PRO:
 
 Faça o download do instalador a partir do link: https://www.docker.com/get-started
@@ -13,6 +14,7 @@ Faça o download do instalador a partir do link: https://www.docker.com/get-star
 Faça a instalação seguindo as opções padrão
 
 Abra a aplicação pelo ícone na area de trabalho e abra a interface clicando no submenu, próximo ao relógio, e clicando com o botão direto abra a dashboard.
+
 
 
 Linux:
