@@ -59,6 +59,7 @@ def consulta_api(request):
                                                    Geral__Estrutura__estrutura__contains=vetor_parametros[7],
                                                    Geral__Agregacao__agregacao__contains=vetor_parametros[8],
                                                    Tecnico__formato__formato__contains = vetor_parametros[9],
+                                                   Ciclo_De_Vida__contribuicao__data__data__contains = vetor_parametros[10],
                                                    Tecnico__tamanho__tamanho__contains = vetor_parametros[11],)
                     serializer = ApiOASerializer(members, many=True)
                     response = Response(serializer.data, content_type='application/json')
