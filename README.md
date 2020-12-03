@@ -52,6 +52,11 @@ Execute o comando: docker-compose up
 
 Acesse localhost:8001
 
-É possível fazer consultas pela url, utilize o padrão: http://localhost:8000/consulta_objetos?&format=json&catalogo=&entrada=&titulo=&idioma=&descricao=&palavras_chaves=&cobertura=&estrutura=&nivel_agregacao=&formato=&data=&tamanho=
+É possível fazer consultas pela URL, utilize o padrão: http://localhost:8000/consulta_objetos?&format=json&catalogo=&entrada=&titulo=&idioma=&descricao=&palavras_chaves=&cobertura=&estrutura=&nivel_agregacao=&formato=&data=&tamanho=
+
+Exemplos: 
+Para buscar um objeto de aprendizagem com o título "Sistemas de Informação", use a URL a seguir. http://localhost:8000/consulta_objetos?&format=json&catalogo=&entrada=&titulo=Sistemas%20de%20Informa%C3%A7%C3%A3o&idioma=&descricao=&palavras_chaves=&cobertura=&estrutura=&nivel_agregacao=&formato=&data=&tamanho=
+
+Para buscar por um objeto de aprendizagem com a data de contribuição "11/9/2020", use a URL a seguir. http://localhost:8000/consulta_objetos?&format=json&catalogo=&entrada=&titulo=&idioma=&descricao=&palavras_chaves=&cobertura=&estrutura=&nivel_agregacao=&formato=&data=2020-11-09&tamanho=
 
 O projeto também está disponível no GitHub por meio do endereço: https://github.com/Alexlr10/TPSD.
